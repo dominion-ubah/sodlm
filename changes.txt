@@ -1,0 +1,4 @@
+COLORS 
+BORDER AROUND PICS
+slider thumbnails nd arrows
+reduce social icons
