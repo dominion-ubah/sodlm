@@ -1,0 +1,143 @@
+*{ padding: 0; margin: 0; }
+ body{background-color:rgba(241, 238, 34,  0.1); background:url(img/er.jpg) no-repeat center top; background-size:contain;}
+
+section.container{width: 90%; margin: 0 auto; }
+section#haed{border-bottom: 2px solid grey; overflow:auto; padding:0.2em 0; background-color:black;}
+section#haed ul{ width:30%; float:right; padding:0; margin:0;}
+section#haed ul li{list-style: none; float:left; margin-right:2em; padding:0.2em 3em 0.2em 0; margin:-0.1em 0 -0.1em 0;}
+section#haed ul li a:first-child{padding:0 5em;}
+section#haed ul li a:link, section#haed ul li a:visited{color:white; 
+								font-weight:bolder; text-decoration:none;
+								padding:0 2em 0 2em;
+								 border-bottom:0px solid white;	transition:600ms ease-out;	
+									}
+section#haed ul li a:hover, section#haed ul li a:active{border-bottom:2px solid white;
+								padding-bottom:0.3em; 
+									transition:300ms ease-in;
+										}
+nav.nav1{  }
+nav.nav1 li{ margin-right:0.6em !important;}
+nav.nav1 a:link,nav.nav1 a:visited{text-decoration: none; font-stretch:extra-condensed; color: black; font-weight: bold; }
+nav.nav1 a:hover,nav.nav1 a:active{color: red;  }
+nav ul li a div{background:url(img/socials.png); no-repeat; 
+			 width:3.5em; border-radius:50%;
+					 height:3.5em; margin:0.3em 0 0 0.3em; border:2px solid black; 
+					}
+nav ul li a:hover div{ 
+			 		box-shadow: -2px -1px 2px 1px red;
+					 border:2px solid red; 
+					}
+header{position:relative;}
+header nav:nth-child(2n){ overflow:auto; padding:0; position:absolute; bottom:0px; right:30px;}
+header nav:nth-child(2n) ul{marging:0; padding:0;}
+header nav:nth-child(2n) ul li{marging:0; padding:0;}
+header nav:nth-child(2n) ul li a{marging:0; padding:0;}
+nav ul li a div.fb{background-position:10% 10.5%;}
+nav ul li a div.pi{background-position:90% 10.5%;}
+nav ul li a div.ig{background-position:74% 10.5%;}
+nav ul li a div.tw{background-position:26% 57.5%;}
+nav ul li a div.gp{background-position:57.5% 10.5%;}
+/** nav ul li a div.yt{background-position:57.5% 10.5%;} **/
+/**.logo{background-image: src(/img/logo.png);
+ background-size: cover; width:300px; height:200px; border: 2px solid green;}  **/
+img{width: 100%;}
+header{overflow: auto;}
+header div,header h3 {float:left;}
+header div.logo img{width:80px; margin: 0.5em 2em; }
+header h3 {text-transform: capitalize; font-weight: bold; margin-top: 1.5em;}
+header li{list-style: none; float: left; margin-right:0em;}
+header nav:nth-child(2n-1){float: right;  margin-right: 0.1em; margin-top:0.4em; }
+header nav:nth-child(2n-1) ul{ padding: 0;}
+header nav:nth-child(2n-1) ul input{background-color: rgba(123, 211, 245, 0.2); border-radius: 7px; padding-left: 0.5em;}
+section#slida{margin:0em 0 4em 0; border:0px solid black !important;}
+
+
+nav>ul#main-nav{ float:left; width:100%; margin:0; padding:0 0 0 15.5em; border-radius: 2px; margin-bottom: 0.2em;}
+nav>ul#main-nav img{width:60%;}
+ul#main-nav{ background-color: black; float:left;}
+ul#main-nav >li{ min-width:9em; text-align:center; position:relative; float:left; list-style:none; margin:0;
+			 display:block; 
+				 
+					padding:0.3em 0.3em; z-index:9999px;}
+ul#main-nav >li a:link,ul#main-nav >li a:visited{margin:0 0 0.1em 0; transition: 600ms ease-out; display:block; color: rgba(245, 210, 19, 1); font-weight: bolder; text-decoration: none; }
+ul#main-nav >li a:hover, ul#main-nav >li a:active{border-bottom: 1px solid white; transition: 400ms ease-in; margin:0 0 -0.5em 0;  }
+ul#main-nav >li a:link a,ul#main-nav >li a:visited a{font-weight: 100px; color: white}
+ul#main-nav >li ul li a:hover, ul#main-nav >li ul li a:active{margin-bottom: 0.2em !important; color: red;}
+
+ul#main-nav>li div.dropee{position:absolute; top:5px; 
+			  width:65em; margin:1.5em 0 0 0;
+			 height:22em;  
+			 border:1px solid green; visibility:collapse; padding:1em 0 0.4em 0; z-index:9999; transition:900ms 100ms linear; opacity:0; overflow:auto;}
+ul#main-nav >li:hover div{visibility:visible; transition:900ms 100ms ease; opacity:1; }
+
+div.dropee{background-color:black; }
+div.dropee div{ float:left; width:33%; height:100%;}
+
+div.dropee ul{ margin:1em 0 1em 0; padding:0;}
+div.dropee ul li{ padding:0.5em 0 0.5em 4em; list-style:none; text-align:left;}
+div.dropee div:last-child aside:first-child{border:1px solid cyan; height:70%;}
+div.dropee div:nth-child(2) aside{ box-shadow: -1px 1px 19px 4px cyan; height:49.8%; width:49.8%; float:left;}
+div.dropee div aside h5{ color: white; }
+.drread{left:-90px;}
+.draudio{left:-217px;}
+.drvideo{left:-344px;}
+.drevent{left:-470px;}
+.drfocus{left:-595px;}
+.drresource{left:-720px;}
+div.dropee div h4{padding: 0 0 0.1em 0; margin:0 0 -1.6em 0; border-bottom:1px solid blue; color: cyan;}
+ul.main-event li{padding: 0.1em 0; margin: 0.1em 0; list-style: square;}
+
+
+section.r1{overflow:auto; margin:0; margin-top: -2em;}
+section.r1 article{float:left; margin:0 1em; width:28%; box-shadow:1px -1px 3px 2px rgba(23, 29, 23, 1); margin-top:0.3em; margin-bottom:1em; border-radius: 10px; overflow: hidden;}
+section.r1 article div{z-index: 100; overflow: hidden;}
+section.r1 article div:nth-child(2n){z-index: 900;}
+section.r1 article:first-child{margin-left:3em;}
+section.r1 div{height: 150px; }
+section.r1 div:nth-child(2n){ background:url(img/red.jpg); height: 90px;}
+section.r1 h3{color: black;}
+section.r1 h4{color:white;}
+section.r2{overflow: auto; margin:2.5em 0;}
+section.r2 article.c1{ background-color:grey; height:220px;}
+section.r2 article.c1{ background-color:grey; height:220px;}
+article.c1{box-shadow:1px -1px 3px 4px orange; width:45em; height: 13em; float: left; margin-left:3em; border:1px solid white; border-radius: 10px; }
+aside.c2{width: 25em; float:right;margin-right:2em;}
+aside.c2 article.rone a{padding:0.2em 0.5em; display:block; margin:0.2em 0; 
+							background-color:black; color: white; 
+										font-size: 200%; text-shadow: 1px 1px 3px rgba(121, 191, 233, 1); border-radius: 4px;
+											 box -shadow: 1px 1px 1px 1px rgba(121, 21, 233, 1);  text-decoration: none; transition: 200ms 10ms ease-out  }
+											 aside.c2 article.rone a:hover{margin-left: 0.5em; margin-right: 0.5em; transition: 200ms 10ms ease-in }
+article.tr1{border: 2px solid yellow; height: 70px; width: 100%; background-color:yellow; overflow: hidden; }
+article.tr2{border: 2px solid orange; height: 85px; width: 100%; background-color:orange; overflow: hidden;}
+article.tr2 div{width: 50%; margin: 0 auto; padding:0.5em 1em;}
+article.tr2 div h2, article.tr2 div h4{floatt:left;}
+article.tr2 div h2{ margin: 0;}
+article.tr2 div h4{ margin: 2.4em 0 0 2em;}
+article.tr3{overflow: auto; width:100%; background-color:rgba(211, 222, 134, 0.7); }
+article.tr3 article{width:18em; float:left; }
+article.tr3 article h3{padding:0.3em 1em; text-align: center;;}
+article.tr3 article div{height:200px;}
+article.tr3 article:first-child{margin: 0 0 0 12.5em;}
+article.tr3 article:nth-child(2n){ background-color:rgba(241, 222, 134, 0.7);}
+article.tr3 article:nth-child(odd){ background-color:rgba(201, 222, 134, 0.7);}
+article.tr3 article div.mf{width: 90%; margin: 0 auto; overflow: hidden;}
+article.tr3 article div.mg{padding: 2em;}
+section#low{border-bottom:2px solid black; border-top:2px solid black; margin:5em auto; position:relative; padding:3em 0;}
+section#low article{ border: 2px solid black; width:30em; position:absolute; top:-34px; left:33em;}
+section#low article h4{background-color:black; color:white; padding:0.5em 0; margin:0;}
+section#low nav:first-child{float:left; width:27em;}
+section#low nav:last-child{float:right; margin-right:-1em; width:25em;}
+section#low nav ul{float:left; margin:0 2em 0 0; }
+section#low nav ul li:first-child{font-size:110%; padding:0 0 1em 0;}
+section#low nav ul li{padding:0 0 0.3em 0; text-align:center; }
+section#low nav ul li a{text-align:center;}
+section#low nav ul li{list-style:none;} 
+form{ padding:1em;}
+form input{padding:0.7em;margin:0.5em; line-height:1.4em;}
+form input[name=sub-name]{width:47%;  margin:0.5em 0.2em}
+form input[name=sub-surname]{width:48%; margin:0.5em auto;}
+form input[name=sub-email]{width:97%; margin:0.5em auto;}
+form input[name=chkbx]{text-align:center; margin:0 0 0 13em;}
+section#slida{height: 280px;  border:2px solid magenta;}
+form input[name=sbm]{width:97% }
+.form1{box-shadow:0px 3px 5px 0px rgba(20, 10, 10, 0.9);}

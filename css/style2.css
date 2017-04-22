@@ -1,0 +1,30 @@
+section#abt-body{overflow:auto;}
+section#abt-body h3{padding:2em 0 0.5em 5em; color:green; font-size:240%; background:red; margin:0;}
+section.r1 p{ float:left; width:69%;}
+.dadspic1{border:1px solid blue; float:right; width:30%; height:30em; margin:3em 0 0 0;}
+div.contact h4{ border-bottom:1px solid green;}
+div.contact{border-top:2px solid blue; width:100%; margin:3em 0 0 0;}
+section.sr1{ border:1px solid yellow;float:left; width:80%; margin:-2em 0 0 0;}
+section.sr1 article{border:1px solid green; height:16em; width:14em; float:left; margin:1em 1.2em;}
+.storeslida{width:80%;}
+aside.sc1{background-color:grey; box-shadow:1px -1px 3px 4px orange;
+			 width:15%; float:right; height:57em; margin:-24em 0.1em 0 0;}
+
+section.er1{ border:1px solid yellow;float:left; width:99%; margin:2em 0 0 0;}
+section.er1 article{border:1px solid green; height:7em;
+		 width:11.7em; float:left; margin:0.1em 0.1em;
+				 position:relative; overflow:hidden;}
+section.er1 article span,section.er1 article h5, section.er1 article h3{position:absolute; }
+section.er1 article span{right:10px; top:5px; font-size:150%;}
+section.er1 article h5{right:5px; bottom:-9px; font-size:140%;}
+section.er1 article h3{right:170px; bottom:15px; font-size:150%; transition:700ms 200ms ease;}
+section.er1 a:hover article h3{right:10px; bottom:15px; font-size:150%; transition:700ms 200ms ease;}
+
+/***** domi ************/
+section#slida{overflow: hidden !important; height:400px;}
+article.c1{background: url(img/rp.jpg) no-repeat; background-size: contain;}
+article.c1 div:first-child{float:left; width:60%; padding:0.5em 2em 0 2em;}
+article.c1 div h3{color: red;}
+div.c1-cover{background: url(img/mlcc.png) no-repeat; background-size: cover; float:left; width:40%; 
+					height: 100%; box-shadow: 1px 1px 5px 1px white;}
+p.freesm{font-size: 0.3em !important; color: green; position: absolute;}
